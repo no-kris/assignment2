@@ -1,0 +1,81 @@
+﻿Kris Treska
+CEN4020
+Assignment3
+
+Date went through Git Lab tutorials: 02/19/2024 and 02/20/2024
+
+
+
+
+
+1.) git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/no-kris/assignment2.git
+   f4975e5..7cc5bc6  master -> master
+
+2.) 8 commits total, 6 by Esteban Parra and 2 by me
+
+   git shortlog -s
+
+3.) Date:   Mon Feb 19 12:58:37 2024
+
+   git log ./README.md
+
+4.) Two reasons why branches are used in Git repos:
+
+   1. Seperate work areas: Branches allow developers working in teams to work on different parts of the project
+                           without messing up what others are doing.
+
+   2. Parallel development: Branches let developers work on different parts of the project at the same time.
+                           Developers do not need to wait until one team is finished before starting their work. 
+
+5.) The diffrences between git log and git status:
+
+   git log: The command git log is used to see the commit history of a repository. It shows a list of information
+            for displaying the author, date, and commit messages.
+   
+   git status: The command git status is ised to show the current state of the repository. It shows which files 
+               have been modified or added and which files are ready to be committed.
+
+6.) To see the commits for "Vehicle.h" use the command: git log ./Vehicle.h
+
+7.) To see the commits that have the word "file" use the command: git log --grep="file"
+
+8.) OOP relationships:
+
+   i.) Inheritance creates an "is-a" type of relationship, where the child class inherits the public or protected
+      attributes and methods of the parent class. The child class can then define it's own methods and attributes.
+      However, the child class cannot see any attributes or methods declared private in the parent class.
+   
+   ii.) Polymorphism means that different objects can be treated the same way even though they are declared in a different
+        class. So, if two classes inherit from the same parent, two different objects can be initialized by the same parent
+        but have different methods and/or attributes associated with them. This is helpful for being able to pass different
+        objects into functions, using the parent class as the parameter. This is also helpful for overriding methods that 
+        have the same name inside two different classes.
+
+   iii.) Encapsulation hides the implementation details of an object, from the user, inside the class that defines it.
+         The idea is that the user does not need to know every piece of data that makes up the object, only what the object
+         is to represent and the public methods that can be used on it.
+
+9.) Differences between “Dictator and Lieutenants” workflow and the “Integration manager” workflow:
+
+   Dictator and Lieutenants: In this workflow developers work on their branches and push changes to the Lieutenants. 
+                             The Lieutenants solve conflicts and merge approved changes. The Dictator has the final say 
+                             and may accept or reject decisions made by the Lieutenants.
+
+   Integration Manager: This workflow is similar to the Dictator and Lieutenants workflow in that developers work on their
+                        own branches. However, this workflow does not have the concept of a Lieutenant. The merging and conflict
+                        solving is done only by the Integration Manager. Meaning the Integration Manager has the sole responsibility
+                        of making changes to the central repository.
+
+10.) For a team of 100 developers, the Dictator and Lieutenants workflow is better then the Centralized workflow. Out of the 100
+     developers, some might be more exprienced than others, and hence should carry the role of Lieutenant or Dictator. This would lead to
+     more effective code review and would reduce any conflicts in the main repository. In the Centralized workflow, having 100 developers, each
+     having the ability to push and pull from the central repository, work on the same code would be a bad idea beacuse it would lead to more complexity
+     in the code.
