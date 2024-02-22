@@ -1,9 +1,9 @@
 3.A.1 ) 
 
-PS C:\Users\17278\Documents\MyCourses\CEN4020\Assignment3\assignment2> git commit -m "Added my name and FSUID to the README file."
+git commit -m "Added my name and FSUID to the README file."
 [master 7cc5bc6] Added my name and FSUID to the README file.
  1 file changed, 3 insertions(+)
-PS C:\Users\17278\Documents\MyCourses\CEN4020\Assignment3\assignment2> git status
+git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)

@@ -3,9 +3,11 @@ CEN4020
 Assignment3
 
 Date went through Git Lab tutorials: 02/19/2024 and 02/20/2024
+(proof inside docs folder for this repository)
 
+Date when created my GitHub: 03/01/2023
 
-
+Link to GitHub repo: https://github.com/no-kris/assignment2
 
 
 1.) git push
