@@ -37,12 +37,12 @@ To https://github.com/no-kris/assignment2.git
    2. Parallel development: Branches let developers work on different parts of the project at the same time.
                            Developers do not need to wait until one team is finished before starting their work. 
 
-5.) The diffrences between git log and git status:
+5.) The differences between git log and git status:
 
    git log: The command git log is used to see the commit history of a repository. It shows a list of information
             for displaying the author, date, and commit messages.
    
-   git status: The command git status is ised to show the current state of the repository. It shows which files 
+   git status: The command git status is used to show the current state of the repository. It shows which files 
                have been modified or added and which files are ready to be committed.
 
 6.) To see the commits for "Vehicle.h" use the command: git log ./Vehicle.h
